@@ -15,3 +15,5 @@ install python3 from https://www.python.org/
 pip3 install pyfiglet
 pip3 install termcolor
 python3 numbers_to_string.py
+
+.................................................................................................
