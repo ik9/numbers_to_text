@@ -1,5 +1,9 @@
 # modules
 
+import os 
+os.system("pip install pyfiglet")
+import os 
+os.system("pip install termcolor")
 import pyfiglet
 import termcolor
 
