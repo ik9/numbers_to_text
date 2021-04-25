@@ -71,7 +71,169 @@ if (lang == 'en' or lang == 'En' or lang == 'EN'):
 		'Fifty'
 	]
 	
-	print(num_text_en)
+# 	print(num_text_en)
+
+	try:
+		num_en_check = int(input("enter number (1-50) : "))
+	except ValueError:
+		print(termcolor.colored("\nyou have to write a number, Try again \n", 'red'))
+		num_en_check = 10000000000000000000000
+	finally:
+		num_en = num_en_check
+
+	if (num_en == 1):
+		print(termcolor.colored("\n"+num_text_en[0]+"\n", 'blue'))
+		# 1
+	if (num_en == 2):
+		print(termcolor.colored("\n"+num_text_en[1]+"\n", 'blue'))
+		# 2
+	if (num_en == 3):
+		print(termcolor.colored("\n"+num_text_en[2]+"\n", 'blue'))
+		# 3
+	if (num_en == 4):
+		print(termcolor.colored("\n"+num_text_en[3]+"\n", 'blue'))
+		# 4
+	if (num_en == 5):
+		print(termcolor.colored("\n"+num_text_en[4]+"\n", 'blue'))
+		# 5
+	if (num_en == 6):
+		print(termcolor.colored("\n"+num_text_en[5]+"\n", 'blue'))
+		# 6
+	if (num_en == 7):
+		print(termcolor.colored("\n"+num_text_en[6]+"\n", 'blue'))
+		# 7
+	if (num_en == 8):
+		print(termcolor.colored("\n"+num_text_en[7]+"\n", 'blue'))
+		# 8
+	if (num_en == 9):
+		print(termcolor.colored("\n"+num_text_en[8]+"\n", 'blue'))
+		# 9
+	if (num_en == 10):
+		print(termcolor.colored("\n"+num_text_en[9]+"\n", 'blue'))
+		# 10
+
+	if (num_en == 11):
+		print(termcolor.colored("\n"+num_text_en[10]+"\n", 'blue'))
+		# 1
+	if (num_en == 12):
+		print(termcolor.colored("\n"+num_text_en[11]+"\n", 'blue'))
+		# 2
+	if (num_en == 13):
+		print(termcolor.colored("\n"+num_text_en[12]+"\n", 'blue'))
+		# 3
+	if (num_en == 14):
+		print(termcolor.colored("\n"+num_text_en[13]+"\n", 'blue'))
+		# 4
+	if (num_en == 15):
+		print(termcolor.colored("\n"+num_text_en[14]+"\n", 'blue'))
+		# 5
+	if (num_en == 16):
+		print(termcolor.colored("\n"+num_text_en[15]+"\n", 'blue'))
+		# 6
+	if (num_en == 17):
+		print(termcolor.colored("\n"+num_text_en[16]+"\n", 'blue'))
+		# 7
+	if (num_en == 18):
+		print(termcolor.colored("\n"+num_text_en[17]+"\n", 'blue'))
+		# 8
+	if (num_en == 19):
+		print(termcolor.colored("\n"+num_text_en[18]+"\n", 'blue'))
+		# 9
+	if (num_en == 20):
+		print(termcolor.colored("\n"+num_text_en[19]+"\n", 'blue'))
+		# 10
+	if (num_en == 21):
+		print(termcolor.colored("\n"+num_text_en[20]+"\n", 'blue'))
+		# 1
+	if (num_en == 22):
+		print(termcolor.colored("\n"+num_text_en[21]+"\n", 'blue'))
+		# 2
+	if (num_en == 23):
+		print(termcolor.colored("\n"+num_text_en[22]+"\n", 'blue'))
+		# 3
+	if (num_en == 24):
+		print(termcolor.colored("\n"+num_text_en[23]+"\n", 'blue'))
+		# 4
+	if (num_en == 25):
+		print(termcolor.colored("\n"+num_text_en[24]+"\n", 'blue'))
+		# 5
+	if (num_en == 26):
+		print(termcolor.colored("\n"+num_text_en[25]+"\n", 'blue'))
+		# 6
+	if (num_en == 27):
+		print(termcolor.colored("\n"+num_text_en[26]+"\n", 'blue'))
+		# 7
+	if (num_en == 28):
+		print(termcolor.colored("\n"+num_text_en[27]+"\n", 'blue'))
+		# 8
+	if (num_en == 29):
+		print(termcolor.colored("\n"+num_text_en[28]+"\n", 'blue'))
+		# 9
+	if (num_en == 30):
+		print(termcolor.colored("\n"+num_text_en[29]+"\n", 'blue'))
+		# 10
+
+	if (num_en == 31):
+		print(termcolor.colored("\n"+num_text_en[30]+"\n", 'blue'))
+		# 1
+	if (num_en == 32):
+		print(termcolor.colored("\n"+num_text_en[31]+"\n", 'blue'))
+		# 2
+	if (num_en == 33):
+		print(termcolor.colored("\n"+num_text_en[32]+"\n", 'blue'))
+		# 3
+	if (num_en == 34):
+		print(termcolor.colored("\n"+num_text_en[33]+"\n", 'blue'))
+		# 4
+	if (num_en == 35):
+		print(termcolor.colored("\n"+num_text_en[34]+"\n", 'blue'))
+		# 5
+	if (num_en == 36):
+		print(termcolor.colored("\n"+num_text_en[35]+"\n", 'blue'))
+		# 6
+	if (num_en == 37):
+		print(termcolor.colored("\n"+num_text_en[36]+"\n", 'blue'))
+		# 7
+	if (num_en == 38):
+		print(termcolor.colored("\n"+num_text_en[37]+"\n", 'blue'))
+		# 8
+	if (num_en == 39):
+		print(termcolor.colored("\n"+num_text_en[38]+"\n", 'blue'))
+		# 9
+	if (num_en == 40):
+		print(termcolor.colored("\n"+num_text_en[39]+"\n", 'blue'))
+		# 10
+
+	if (num_en == 41):
+		print(termcolor.colored("\n"+num_text_en[40]+"\n", 'blue'))
+		# 1
+	if (num_en == 42):
+		print(termcolor.colored("\n"+num_text_en[41]+"\n", 'blue'))
+		# 2
+	if (num_en == 43):
+		print(termcolor.colored("\n"+num_text_en[42]+"\n", 'blue'))
+		# 3
+	if (num_en == 44):
+		print(termcolor.colored("\n"+num_text_en[43]+"\n", 'blue'))
+		# 4
+	if (num_en == 45):
+		print(termcolor.colored("\n"+num_text_en[44]+"\n", 'blue'))
+		# 5
+	if (num_en == 46):
+		print(termcolor.colored("\n"+num_text_en[45]+"\n", 'blue'))
+		# 6
+	if (num_en == 47):
+		print(termcolor.colored("\n"+num_text_en[46]+"\n", 'blue'))
+		# 7
+	if (num_en == 48):
+		print(termcolor.colored("\n"+num_text_en[47]+"\n", 'blue'))
+		# 8
+	if (num_en= 49):
+		print(termcolor.colored("\n"+num_text_en[48]+"\n", 'blue'))
+		# 9
+	if (num_en == 50):
+		print(termcolor.colored("\n"+num_text_en[49]+"\n", 'blue'))
+		# 10
 	
 elif lang == 'ar' or lang == 'Ar' or lang == 'AR':
 	num_text_ar = [
