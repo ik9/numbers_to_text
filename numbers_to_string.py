@@ -228,7 +228,7 @@ if (lang == 'en' or lang == 'En' or lang == 'EN'):
 	if (num_en == 48):
 		print(termcolor.colored("\n"+num_text_en[47]+"\n", 'blue'))
 		# 8
-	if (num_en= 49):
+	if (num_en == 49):
 		print(termcolor.colored("\n"+num_text_en[48]+"\n", 'blue'))
 		# 9
 	if (num_en == 50):
