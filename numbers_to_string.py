@@ -15,7 +15,7 @@ TL_NAME_text = pyfiglet.figlet_format("Numbers To Text")
 TL_NAME = termcolor.colored(TL_NAME_text, 'green')
 
 print(TL_NAME) 
-print(termcolor.colored('Created by izox\ntwitter : @izox0\n', 'blue'))
+print(termcolor.colored('Created by izox\ntwitter : @izox99\n', 'blue'))
 
 # end print tool name
 
